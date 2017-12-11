@@ -1,4 +1,6 @@
-﻿namespace MyNewCSharpFavoriteFeatures.PatternMatching
+﻿using MyNewCSharpFavoriteFeatures.General;
+
+namespace MyNewCSharpFavoriteFeatures.PatternMatching
 {
     public class Seal : Animal
     {

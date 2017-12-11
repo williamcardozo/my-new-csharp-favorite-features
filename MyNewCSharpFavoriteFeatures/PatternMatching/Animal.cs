@@ -1,4 +1,6 @@
-﻿namespace MyNewCSharpFavoriteFeatures.PatternMatching
+﻿using MyNewCSharpFavoriteFeatures.General;
+
+namespace MyNewCSharpFavoriteFeatures.PatternMatching
 {
     public class Animal
     {
@@ -11,16 +13,5 @@
             Herbivore = herbivore;
             Classification = classification;
         }
-    }
-
-    public enum Classification
-    {
-        Worm,
-        Insect,
-        Fish,
-        Amphibian,
-        Reptile,
-        Bird,
-        Mammal
     }
 }
